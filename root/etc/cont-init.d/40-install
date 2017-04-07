@@ -7,3 +7,7 @@
 # permissions
 chown -R abc:abc \
 	/config/www
+
+chmod 750 /config/log
+chmod 750 /config/log/nginx
+chmod 750 /config/log/php
